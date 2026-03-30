@@ -49,11 +49,7 @@ Initial exploration revealed several important data issues:
 ## 📊 Analysis & Insights
 
 ### 1. Overall Metrics
-<<<<<<< HEAD
-![Overall Metrics](Images/avg_metrics.png)
-=======
 ![Overall Metrics](Images/overall_metrics.png)
->>>>>>> 6e581bf (Final README with business insights and improvements)
 
 **Insight:**  
 The average fare is **$13.10** and the average trip distance is **3.03 miles**, indicating that most rides are short, urban trips typical of dense city environments.
@@ -63,11 +59,7 @@ The average fare is **$13.10** and the average trip distance is **3.03 miles**, 
 ---
 
 ### 2. Trip Distance Analysis
-<<<<<<< HEAD
-![Trip Distance](Images/trip_type_analysis.png)
-=======
 ![Trip Distance](Images/trip_distance_analysis.png)
->>>>>>> 6e581bf (Final README with business insights and improvements)
 
 **Insight:**  
 Short trips account for ~58% of total rides, showing that demand is heavily concentrated in local travel.
