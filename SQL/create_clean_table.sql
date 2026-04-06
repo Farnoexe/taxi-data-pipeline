@@ -1,7 +1,7 @@
-CREATE TABLE taxi_clean_data_v4
+CREATE TABLE taxi_clean_data
 WITH (
     format = 'PARQUET',
-    external_location = 's3://metroville-traffic-analytics/taxi-data-clean-v4/'
+    external_location = 's3://metroville-traffic-analytics/taxi-data-clean/'
 ) AS
 SELECT
     pickup,
@@ -18,5 +18,5 @@ SELECT
     dropoff_zone,
     pickup_borough,
     dropoff_borough
-FROM taxi_raw_data_v3
+FROM taxi_raw_data
 WHERE passengers > 0;
